@@ -399,53 +399,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "API do Backend\n",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "API do Backend\n"
-            ],
-            "id": "5913dd60-a6d3-40d8-9d92-13b357958a16",
-            "source": {
-              "cell": "3148d619-f966-486d-9184-a03dfa3d61be",
-              "port": "df16437e-ca3f-4635-89a6-c24db2154ea6"
-            },
-            "target": {
-              "cell": "4552e8ae-82df-4de4-9aa7-6ec0cac687d9",
-              "port": "3d13cbb5-3c45-4f20-9b3b-b92d4788dc68"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "zapisanie danych \nużytkownika do bazy ",
               "description": "",
               "outOfScope": false,
@@ -714,7 +667,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "zapisanie danych uzytkownika \n",
+              "name": "API do Backend\n",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -728,7 +681,54 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "zapisanie danych uzytkownika \n"
+              "API do Backend\n"
+            ],
+            "id": "5913dd60-a6d3-40d8-9d92-13b357958a16",
+            "source": {
+              "cell": "3148d619-f966-486d-9184-a03dfa3d61be",
+              "port": "df16437e-ca3f-4635-89a6-c24db2154ea6"
+            },
+            "target": {
+              "cell": "4552e8ae-82df-4de4-9aa7-6ec0cac687d9",
+              "port": "3d13cbb5-3c45-4f20-9b3b-b92d4788dc68"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "potwierdzono danych uzytkownika \n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "potwierdzono danych uzytkownika \n"
             ],
             "id": "4836e709-7f8f-4188-9d3e-f41d6a40d4e6",
             "source": {
